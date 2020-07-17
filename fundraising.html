@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Biologists of Later Tomorrows</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imageS/SNIPSNIP-removebg-preview.png">
+</head>
+<body style="background-color: #333333;">
+    <div class="container">
+        <div class="nav">
+            <div class="right-side">
+                <div class="brand">
+                    <div><img src="images/BOLT LOGO.JPG"></div>
+                </div>
+
+            </div>
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html"> Home </a>
+                </div>    
+                <div class="nav-link-wrapper">    
+                    <a href="about.html"> About </a>
+                </div>
+                <div class="nav-link-wrapper">    
+                    <a href="programs.html"> Programs </a>
+                </div>
+                <div class="nav-link-wrapper">    
+                    <a href="shop.html"> Merchandise </a>
+                </div>
+                <div class="nav-link-wrapper active-nav-link">    
+                    <a href= "fundraising.html"> Fundraising </a>
+                </div>   
+            </div>
+            
+        </div>
+        <div class="content-wrapper">
+            <div class="f_portfolio-items-wrapper">
+            
+                <div class="f_portfolio-item-wrapper">
+
+                    <div class="portfolio-img-background">
+                        <a href="https://www.gofundme.com/f/darby-academic-excellence-award-daea">
+                            <img alt="gofundme" src="images/IMG_0833.JPG"
+                            width="160" height="560" class="center">
+                        </a>
+                        <div class="f_img-text-wrapper">
+
+                                <div class="f_subtitle" style="font-size: xx-large;"; style="color: goldenrod;" style="filter: brightness(100%);">
+                                                         DONATE TODAY
+                                </div>
+                        </div>
+    
+                    </div>
+
+
+                </div>    
+            <div class="f_profile-content-wrapper">
+                    
+                                   
+                         <h1>Darby Academic Excellence Award (DAEA)</h1>
+                            <p0 style="text-align: justify;" class="f_description"> 
+                                The Darby Academic Excellence Award (DAEA) is a $1000 minority scholarship created by Mr. Niko Darby. Darby is a biologist and data scientist that advocates for diversifying the fields of STEM.
+
+                                This scholarship was created to provide funding to a student that performs splendidly in Biologists of Later Tomorrows (BOLT) - a program created to advance minorities and diversify the fields on STEM. The awardee will have exhibited expertise and immense comprehension in both the biological sciences and data science. Donate today and aid in the future of a minority in STEM!
+                            </p0>
+                        <h1>The Posse Foundation</h1>
+                            <p3 style="text-align: justify;" class="a_description"> Students who perform well in BOLT will also earn the chance to be nominated for the Posse Foundation Leadership Full-Tuition Scholarship. 
+                                This scholarship covers over $200,000 in tuition, ultimately allowing students to pursue their dreams in University.  Learn more about The Posse Foundation via the link below: </p3>
+                                <p></p>
+                                <a href="https://www.possefoundation.org/about-posse"> <img src="images/Posse-logo-update.png" style="width: 10%;"> </a>    
+            
+                        </div>
+                    </div>
+                </div>
+                <div class="f-footer">
+                    <div class= "footer-information">
+                        <div class= "footer- about"></div>
+                        <div class="footer- contact us"></div>
+                        <div class="footer- links"></div>
+                    </div>
+                
+                    <div class="le-footer-bottom">
+                        &copy; darbyindustries.org | Designed by Niko Darby
+                    </div>
+                    
+                    <div class= "le-footer-top">
+                    </div>
+            
+                </div>  
+            </div>    
+        </div>      
+    </div>
+          
+</body>
+<script>
+    const portfolioItemZ = document.querySelectorAll('.f_portfolio-item-wrapper')
+
+    portfolioItemZ.forEach(portfolioIt3m => {
+        portfolioIt3m.addEventListener('mouseover', () => {
+            console.log(portfolioIt3m.childNodes[1].classList);
+            portfolioIt3m.childNodes[1].classList.add('f_img-darken')
+        })
+
+        portfolioIt3m.addEventListener('mouseout', () => {
+            console.log(portfolioIt3m.childNodes[1].classList);
+            portfolioIt3m.childNodes[1].classList.remove('f_img-darken');
+        })
+    })
+
+
+</script>  
+</html>
+

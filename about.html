@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title> Biologists of Later Tomorrows</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="imageS/SNIPSNIP-removebg-preview.png">
+</head>
+<body style="background-color: #333333;">
+    <div class="container">
+        <div class="nav">
+            <div class="right-side">
+                <div class="brand">
+                    <div><img src="images/BOLT LOGO.JPG"></div>
+                </div>
+
+            </div>
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="index.html"> Home </a>
+                </div>    
+                <div class="nav-link-wrapper active-nav-link">    
+                    <a href="about.html"> About </a>
+                </div>
+                <div class="nav-link-wrapper">    
+                    <a href="programs.html"> Programs </a>
+                </div>
+                <div class="nav-link-wrapper">    
+                    <a href="shop.html"> Merchandise </a>
+                </div>
+                <div class="nav-link-wrapper">    
+                    <a href= "fundraising.html"> Fundraising </a>
+                </div>   
+            </div>
+            
+        </div>
+        <div class="content-wrapper">
+            <div class= "two-column-wrapper">
+                <div class= "profile-image-wrapper">
+
+                </div>
+
+                <div class="profile-image-wrapper">
+                        
+                </div>
+                <div class="profile-content-wrapper">
+                    <!--Slideshow adopted from w3schools-->
+                    <div class="slideshow-container">
+
+                        <!-- Full-width images with number and caption text -->
+                        <div class="mySlides fade">
+                          <div class="numbertext">1 / 3</div>
+                          <img src="images/immuno (1).jpg" style="width:100%" width="521" height="346">
+                          <div class="text">Groundbreaking Molecular Research</div>
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">2 / 3</div>
+                          <div class="picpic">
+                          <img src="images/IMG_0059.JPG" style="width:100%" width="521" height="346">
+                          </div>
+                          <div class="text">Networking Opportunities with Scientists</div>
+                        </div>
+                      
+                        <div class="mySlides fade">
+                          <div class="numbertext">3 / 3</div>
+                          <img src="images/1ca8be5c-c67e-4ada-a050-b5e1940248d3.jpg" style="width:100%" width="521" height="346">
+                          <div class="text">Receive Hands-on Experience from Trained Professionals</div>
+                        </div>
+                      
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                      </div>
+                      <br>
+                      
+                      <!-- The dots/circles -->
+                      <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                      </div>
+
+                    <h1>ABOUT US</h1>
+                    
+                    <p0 style="text-align: justify;" class="a_description"> Biologists of Later Tomorrows (BOLT) is an organization created for individuals who are interested in the biological sciences and data science. BOLT was originally founded in 2016 by Mr. Niko Darby.</p0>
+                    <p1 style="text-align: justify" class="a_description"> This organization consists of various fun and interactive learning sessions for each field of biology and data science. Participating in this organization will provide students with hands-on experience in various biological fields such as genetics, cell biology, molecular biology, herpetology, ornithology, evolutionary biology, and much more. In terms of data science, students will learn the coding languages of Python, R, and SQL. Skills such as machine learning and statistical analyzation will also be taught to each student.   
+                    </p1>
+                    <p2 style="text-align: justify;" class="a_description">An ultimate benefit would include students who are aspiring biologists or data scientists to have the ability to discover their focus in the field. For instance, if a student is contemplating between focusing in genetics or computational biology, BOLT will provide fun learning sessions for each subject thus enabling the student to conclusively decide his/her focus. 
+                       	Join BOLT today and prepare for an astonishing adventure in the realms of STEM! 
+                       	If you have any questions, contact Mr. Niko Darby at ndarby2050@gmail.com
+                    </p2>
+                    <br>
+                    <br>
+                    <h1>CONTACT</h1>
+                    <p3 style="text-align: justify;" class="a_description">
+                    If you would like to contact us for further information, please reach out to Mr. Niko Darby:
+                    <br>
+                    <br>
+                    <br>
+                    <u>Niko Darby, Founder & CEO</u>
+                    <br>
+                    Phone Number: 202-812-2625
+                    <br>
+                    Email Address: ndarby2050@gmail.com
+                    </p3>
+
+
+                </div>   
+            </div>
+        </div>  
+    
+    </div>
+    <div class="le-footer">
+        <div class= "footer-information">
+            <div class= "footer- about"></div>
+            <div class="footer- contact us"></div>
+            <div class="footer- links"></div>
+        </div>
+    
+        <div class="le-footer-bottom">
+            &copy; darbyindustries.org | Designed by Niko Darby
+        </div>
+        <div class= "le-footer-top">
+        </div>
+
+    </div>
+</body>
+<script>
+        var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>          
+</html>
+
