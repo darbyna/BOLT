@@ -473,3 +473,12 @@ body {
     position: relative;
     margin-top: -355px;
 }
+
+/* Pricing */
+
+.pricing {
+    text-align: center;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 38px;
+}
