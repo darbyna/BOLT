@@ -465,3 +465,11 @@ body {
     text-align: bottom;
 
 }
+
+/* Home Page Trailer */
+
+.BOLT_Trailer {
+    text-align: center;
+    position: relative;
+    margin-top: -355px;
+}
