@@ -470,5 +470,6 @@ body {
 
 .BOLT_Trailer {
     text-align: center;
-    margin-top: 100px;
+    position: relative;
+    margin-top: -355px;
 }
