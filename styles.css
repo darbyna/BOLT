@@ -877,3 +877,987 @@ body {
     margin-top: -145px;
     
 }
+
+@media only screen and (max-width: 765px) {
+
+    .back-wrap {
+        position: fixed;
+        z-index: -1000;
+        width: 1000%;
+        overflow: hidden;
+        left: 0;
+        transform: scale(1, 2.2);
+        top: 1000px;
+        padding-left: -100px;
+
+        
+        
+    }
+    .two-column-wrapper {
+        margin-bottom: 300px;
+        margin-top: -200px;
+    }
+    .content-wrapper0 {
+        margin-top: -80px;
+    }
+
+    .container {
+        padding-left: 10px;
+        top: 200px;
+
+    }
+    .two-column-wrapper {
+        margin-bottom: -200px;
+        top: 100px;
+    }
+
+
+    .content-wrapper {
+        padding-top: 200px;
+    }
+    .le-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        width: 252%;
+        position: relative;
+        bottom: -29px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+        margin-top: 400px;
+        left: 7px;
+        
+    }
+    
+    .brand {
+        bottom: -100px;
+        position: unset;
+        height: 365px;
+        margin-bottom: 50px;
+        
+        
+    }
+    .le_brand {
+        margin-bottom: 20px;
+    }
+
+    .le_brand_James {
+        margin-bottom: -60px;
+        margin-top: 2px;
+    }
+    .tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 150px;
+        position: unset;
+        width: 100%;
+        z-index:-1000 ;
+        top: -3px;
+        padding-top: 470px;
+        padding-left: 945px;
+        left: 0px;
+        text-align: center;
+        margin-top: -395px;
+    
+       
+    }
+    .pr-le-footer {
+        padding-left: 958px;
+        
+        
+    }
+
+    .f-footer {
+        padding-left: 958px;
+        margin-bottom: -455px;
+    }
+
+    .p-le-footer {
+        padding-left: 958px;
+        margin-bottom: -745px;
+    }
+    .left-side2 {
+        margin-top: -20px;
+        margin-bottom: 113px;
+        top: 200px;
+    }
+
+    s-content-wrapper {
+        margin-top:1000px;
+        padding-right: 9000px;
+    }
+  
+
+
+@media only screen and (min-width: 1000px) {
+        
+    /* Navigator Styles */
+
+    .nav-wrapper{
+        display: flex;
+        justify-content: space-between;
+        padding: 90px 
+    }
+
+
+    .right-side{
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+    }
+
+
+    .left-side{
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+    }
+
+
+    .nav-wrapper > .left-side > div {
+        margin-right: 20px;
+        font-size: 0.9em;
+        text-transform: uppercase;
+        
+    }
+
+    .nav-link-wrapper{
+        height: 22px;
+        border-bottom: 1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    .nav-link-wrapper a {
+        color: gold;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+
+    .nav-link-wrapper:hover {
+        border-bottom: 1px solid blue;
+    }
+
+    .nav-link-wrapper a:hover {
+        color: solid blue;
+    }
+
+    .active-nav-link {
+        border-bottom: solid blue;
+    }
+
+    .active-nav-link a {
+        color: blueviolet !important;
+    }
+    /* Portfolio Styles */
+
+    .portfolio-items-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .portfolio-item-wrapper {
+        position: relative;
+        top: -10px;
+        
+
+    }
+
+    .portfolio-img-background {
+        height: 400px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .img-text-wrapper {
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        text-align: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .logo-wrapper img {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    /* Needs specificity with selector */
+
+    .img-text-wrapper .subtitle {
+        transition: 1s;
+        font-weight: 600;
+        color: transparent;
+        
+
+    }
+
+    .img-text-wrapper:hover .subtitle {
+        font-weight: 600;
+        color: gold;
+    }
+
+    .img-darken {
+        transition: 2s;
+        filter: brightness(10%);
+    }
+
+    /* About Page Styles */
+
+    .two-column-wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .profile-image-wrapper img {
+        width: 100%; 
+    }
+
+    .profile-content-wrapper {
+        padding: 30px;
+        
+    }
+
+    .profile-content-wrapper h1 {
+        color: goldenrod;
+    }
+
+    .a_description {
+        color: white;
+    }
+
+    .immuno-pic {
+        margin-left: 350px;
+        width: 100%;
+    }
+    /* Fundraising Subtitle */
+
+    .f_img-text-wrapper .f_subtitle {
+        transition: 1s;
+        font-weight: 600;
+        color: transparent;
+        margin-top: -300px;
+        margin-left: 580px;
+        
+
+    }
+
+    .f_img-text-wrapper:hover .f_subtitle {
+        font-weight: 20px;
+        color: gold;
+        filter: brightness(900%);
+        
+    }
+
+
+    .f_img-darken {
+        transition: 2s;
+        filter: brightness(50%);
+    }
+
+    /* Fundraising Picture */
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -45px;
+        width: 100%;
+    }
+
+    .f_description {
+        color: white;
+        text-align: justify;
+    }
+
+    .f_logo-wrapper img {
+        width: 100%;
+        margin-bottom: 300px;
+    }
+
+    .f_profile-content-wrapper {
+        color: goldenrod;
+        margin-top: 145px;
+
+        
+    }
+
+
+    .f_portfolio-item-wrapper {
+        position: static;
+        margin-top: 50px;
+        width: 100%;
+
+    }
+
+
+    .f_portfolio-items-wrapper {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+
+    /* Footer */ 
+    .le-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        position: relative;
+        width: 100%;
+        position: absolute;
+        bottom: -1025px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+        
+    }
+
+    .le-footer .footer-content {
+        background: 2pc goldenrod;
+        height:40px;
+    }
+
+    .le-footer .le-footer-top {
+        background: purple;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        padding-top:1px;
+        left: 0px;
+        top: -3px;
+    }
+
+
+    .le-footer .le-footer-bottom {
+        background-color: goldenrod;
+        color: honeydew;
+        height: 45px;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        padding-top: 20px;
+        left: 0px;
+        text-align: bottom;
+
+    }
+
+
+    /* Fundraising Footer */ 
+    .f-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        position: relative;
+        width: 100%;
+        position: absolute;
+        bottom: -800px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+        
+    }
+
+    .f-footer .footer-content {
+        background: 2pc goldenrod;
+        height:40px;
+    }
+
+
+
+    .f-footer .le-footer-top {
+        background: purple;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        padding-top:1px;
+        left: 0px;
+        top: -3px;
+    }
+
+
+    .f-footer .le-footer-bottom {
+        background-color: goldenrod;
+        color: honeydew;
+        height: 45px;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        padding-top: 20px;
+        left: 0px;
+        text-align: bottom;
+
+    }
+
+    /* Slideshow adopted from w3schools */
+    * {box-sizing:border-box}
+
+    /* Slideshow container */
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
+
+    /* Hide the images by default */
+    .mySlides {
+    display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+
+    /* Merchandise Page */
+
+    .com_so {
+        right: 40px;
+        text-align: center;
+    }
+
+    .content-wrapper {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    /* Home Page */
+    .content-wrapper0 {
+        margin-top: -141px;
+    }
+
+    /* Programs Page */
+
+
+    .content-wrapper2 {
+        display: grid;
+        grid-template-rows: 1fr;
+    }
+
+    /* Programs Page Footer */
+
+    .p-le-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        position: relative;
+        width: 100%;
+        position: absolute;
+        bottom: -500px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+    }
+
+
+    .p-le-footer .footer-content {
+        background: 2pc goldenrod;
+        height:40px;
+    }
+
+    .p-le-footer .le-footer-top {
+        background: purple;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        padding-top:1px;
+        left: 0px;
+        top: -3px;
+    }
+
+
+    .p-le-footer .le-footer-bottom {
+        background-color: goldenrod;
+        color: honeydew;
+        height: 45px;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        padding-top: 20px;
+        left: 0px;
+        text-align: bottom;
+
+    }
+
+    /* Home Page Trailer */
+
+    .BOLT_Trailer {
+        text-align: center;
+        position: relative;
+        margin-top: -355px;
+    }
+
+    /* Pricing */
+
+
+
+    /* Upper Border and Backgrounds */
+
+    .tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 125px;
+        position: relative;
+        width: 100%;
+        z-index:-1000 ;
+        position: absolute;
+        top: -3px;
+        padding-top: 400px;
+        left: 0px;
+        text-align: center;
+    }
+
+    .back-wrap {
+        position: fixed;
+        z-index: -1000;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+    }
+
+    /* Pricing Page Content */
+
+    .acad {
+        margin-left: 46px;
+        margin-top: 26px;
+        top: 200px;
+        position: relative;
+        text-align: center;
+        margin-bottom: 200px;
+        margin-top: -150px;
+
+    }
+
+    .movers {
+        margin-top: 210px;
+    }
+
+    .webby {
+        margin-left: 46px;
+        margin-top: 200px;
+        text-align: center;
+        color: gold;
+    }
+
+    /* Pricing Page Footer */
+
+    .pr-le-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        position: relative;
+        width: 100%;
+        position: absolute;
+        bottom: -1700px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+    }
+
+
+    .pr-le-footer .footer-content {
+        background: 2pc goldenrod;
+        height:40px;
+    }
+
+    .pr-le-footer .le-footer-top {
+        background: purple;
+        height: 2px;
+        width: 100%;
+        position: absolute;
+        padding-top:1px;
+        left: 0px;
+        top: -3px;
+    }
+
+
+    .pr-le-footer .le-footer-bottom {
+        background-color: goldenrod;
+        color: honeydew;
+        height: 45px;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        padding-top: 20px;
+        left: 0px;
+        text-align: bottom;
+
+    }
+
+    /* Merchandise Page Widget */
+
+    /* New Banner */
+    .le_brand {
+        bottom: 1000px;
+        position: unset;
+        height: 365px;
+    }
+
+    /* Programs Page Animations */
+
+    /* Biology */ 
+    .new_container {
+        position: relative;
+        width: 100%;
+    }
+
+    .the_overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        background-color: goldenrod;
+        overflow:hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+
+    }
+
+    .new_container:hover .the_overlay {
+        height:100%;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 50%;
+        top: -90%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%,50%);
+        text-align: justify;
+        
+    }
+
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Data Science */
+
+    .new_container2 {
+        position: relative;
+        width: 100%;
+    }
+
+    .the_overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        background-color: goldenrod;
+        overflow:hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+
+    }
+
+    .new_container2:hover .the_overlay {
+        height:100%;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 50%;
+        top: -90%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%,50%);
+        text-align: justify;
+        
+    }
+
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Career Development */
+
+
+    .new_container3 {
+        position: relative;
+        width: 100%;
+    }
+
+    .the_overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        background-color: goldenrod;
+        overflow:hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+
+    }
+
+    .new_container3:hover .the_overlay {
+        height:100%;
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 50%;
+        top: -90%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%,50%);
+        text-align: justify;
+        
+    }
+
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    /* Slideshow On Programs Page */
+
+    /* Adopted From W3Schools */
+
+    * {box-sizing:border-box}
+
+    /* Slideshow container */
+    .slideshow-container2 {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    
+    }
+
+    /* Hide the images by default */
+    .mySlides2 {
+    display: none;
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    }
+
+    /* Caption text */
+    .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    }
+
+    .active, .dot:hover {
+    background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+    }
+
+    /*Programs Page Spacing */
+
+    .le_brand_James {
+        bottom: 1000px;
+        position: unset;
+        height: 365px;
+    }
+
+
+    .left-side2 {
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        margin-bottom: 140px;
+    }
+
+
+    /* Programs Page Header */
+
+    .form-fill2 {
+        font-size: 45px;
+        margin-top: -585px;
+        text-align: center;
+        position: relative;
+        right: 450px;
+
+    }
+
+    .h1 {
+        text-align: center;
+    }
+
+    .positioning1 {
+        text-align: center;
+        margin-top: -100px;
+    }
+
+    /* Final Font on Pricing Page */
+
+    .color-c {
+        color: white;
+        text-align: center;
+        margin-top: -145px;
+        
+    }
+
+
+}
+}
