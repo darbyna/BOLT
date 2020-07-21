@@ -978,7 +978,7 @@ body {
         
     }
     .text {
-        font-size: 13px;
+        font-size: 6px;
     }
     .m-container {
         margin-top: -1000px;
@@ -2026,7 +2026,7 @@ body {
     }
    
     .text {
-        font-size: 13px;
+        font-size: 6px;
     }
     .two-column-wrapper {
         margin-bottom: 300px;
@@ -2181,6 +2181,181 @@ body {
         padding-left: -100px;
         margin-top: -10px;
 
+    }
+  
+}
+@media only screen and (max-width: 787px) and (min-width: 767px) {
+  
+    .back-wrap {
+        position: fixed;
+        z-index: -1000;
+        width: 1000%;
+        overflow: hidden;
+        left: 0;
+        transform: scale(1, 3.2);
+        top: 1500px;
+        padding-left: -100px;
+
+        
+        
+    }
+    .text {
+        font-size: 6px;
+    }
+    .m-container {
+        margin-top: -1000px;
+    }
+    .m-tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 150px;
+        position: relative;
+        width: 100%;
+        z-index:-1000 ;
+        top: -3px;
+        margin-left: -100px;
+        padding-top: 470px;
+        padding-left: 1779px;
+        padding-right: -1px;
+        left: 0px;
+        text-align: right;
+        margin-top: -395px;
+    
+       
+    }
+    .me-le-footer {
+        padding-left: 1458px;
+        margin-top: 2500px;
+        margin-bottom: -1159px;
+
+
+    }
+    .m-right-side {
+        margin-top: -20px;
+        margin-bottom: 113px;
+        top: 200px;
+        margin-right: -1050px;
+        margin-left: -200px;
+        
+    }
+
+    .m-left-side {
+        margin-top: -150px;
+        margin-bottom: 113px;
+        margin-right: -730px;
+        margin-left: 200px;
+        top: 200px;
+
+    }
+    .m-back-wrap {
+        position: relative;
+        z-index: -1000;
+        width: 387%;
+        overflow: hidden;
+        left: 0;
+        transform: scale(1, 2.2);
+        top: 1050px;
+        padding-left: -100px;
+        margin-top: -10px;
+
+    }
+    .two-column-wrapper {
+        margin-bottom: 300px;
+        margin-top: -200px;
+    }
+    .content-wrapper0 {
+        margin-top: -80px;
+    }
+
+    .container {
+        padding-left: 10px;
+        top: 200px;
+
+    }
+    .two-column-wrapper {
+        margin-bottom: -200px;
+        top: 100px;
+    }
+
+
+    .content-wrapper {
+        padding-top: 200px;
+    }
+    .le-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        width: 135%;
+        position: relative;
+        bottom: -29px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+        margin-top: 590px;
+        margin-left: -10px;
+        left: 7px;
+        
+    }
+    
+    .brand {
+        bottom: -100px;
+        position: unset;
+        height: 365px;
+        margin-bottom: 50px;
+        
+        
+    }
+    .container {
+        margin-left: -10px;
+    }
+    .le_brand {
+        margin-bottom: 20px;
+    }
+
+    .le_brand_James {
+        margin-bottom: -60px;
+        margin-top: 2px;
+    }
+    .tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 150px;
+        position: unset;
+        width: 100%;
+        z-index:-1000 ;
+        top: -3px;
+        padding-top: 470px;
+        padding-left: 1025px;
+        left: 0px;
+        text-align: center;
+        margin-top: -395px;
+    
+       
+    }
+    .pr-le-footer {
+        padding-left: 1028px;
+        
+        
+    }
+    
+    .f-footer {
+        padding-left: 1028px;
+        margin-bottom: -605px;
+    }
+
+    .p-le-footer {
+        padding-left: 1028px;
+        margin-bottom: -905px;
+    }
+    .left-side2 {
+        margin-top: -20px;
+        margin-bottom: 113px;
+        top: 200px;
+    }
+
+    s-content-wrapper {
+        margin-top:1000px;
+        padding-right: 9000px;
     }
   
 }
