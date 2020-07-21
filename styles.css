@@ -10,6 +10,11 @@ body {
     grid-template-columns: 1fr;
 }
 
+.m-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
 
 
 /* Navigator Styles */
@@ -26,9 +31,19 @@ body {
     justify-content: space-evenly;
     text-transform: uppercase;
 }
-
+.m-right-side{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
 
 .left-side{
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+
+.m-left-side{
     display: flex;
     justify-content: space-evenly;
     text-transform: uppercase;
@@ -221,6 +236,51 @@ body {
 .f_portfolio-items-wrapper {
     display: grid;
     grid-template-rows: 1fr;
+}
+
+/* Shop Footer */ 
+.me-le-footer {
+    background: rgb(1, 1, 201);
+    color: goldenrod;
+    height: 200px;
+    position: relative;
+    width: 100%;
+    position: absolute;
+    bottom: -1025px;
+    padding-top: 50px;
+    left: 0px;
+    text-align: center;
+    
+}
+
+
+.me-le-footer .footer-content {
+    background: 2pc goldenrod;
+    height:40px;
+}
+
+.me-le-footer .le-footer-top {
+    background: purple;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    padding-top:1px;
+    left: 0px;
+    top: -3px;
+}
+
+
+.me-le-footer .le-footer-bottom {
+    background-color: goldenrod;
+    color: honeydew;
+    height: 45px;
+    width: 100%;
+    position: absolute;
+    bottom: 50px;
+    padding-top: 20px;
+    left: 0px;
+    text-align: bottom;
+
 }
 
 
@@ -490,9 +550,21 @@ body {
     margin-top: -355px;
 }
 
-/* Pricing */
+/* shop */
 
-
+.m-tp-le-footer {
+    background: #333333;
+    color: goldenrod;
+    height: 125px;
+    position: relative;
+    width: 100%;
+    z-index:-1000 ;
+    position: absolute;
+    top: -3px;
+    padding-top: 400px;
+    left: 0px;
+    text-align: center;
+}
 
 /* Upper Border and Backgrounds */
 
@@ -509,7 +581,15 @@ body {
     left: 0px;
     text-align: center;
 }
-
+.m-back-wrap {
+    position: fixed;
+    z-index: -1000;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
 .back-wrap {
     position: fixed;
     z-index: -1000;
@@ -589,8 +669,12 @@ body {
 
 }
 
-/* Merchandise Page Widget */
-
+/* Merchandise Page Banner */
+.m-le_brand {
+    bottom: 1000px;
+    position: unset;
+    height: 365px;
+}
 /* New Banner */
 .le_brand {
     bottom: 1000px;
@@ -878,7 +962,7 @@ body {
     
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 400px) {
 
     .back-wrap {
         position: fixed;
@@ -887,11 +971,71 @@ body {
         overflow: hidden;
         left: 0;
         transform: scale(1, 2.2);
-        top: 1000px;
+        top: 1500px;
         padding-left: -100px;
 
         
         
+    }
+    .text {
+        font-size: 13px;
+    }
+    .m-container {
+        margin-top: -1000px;
+    }
+    .m-tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 150px;
+        position: relative;
+        width: 100%;
+        z-index:-1000 ;
+        top: -3px;
+        margin-left: -100px;
+        padding-top: 470px;
+        padding-left: 1779px;
+        padding-right: -1px;
+        left: 0px;
+        text-align: right;
+        margin-top: -395px;
+    
+       
+    }
+    .me-le-footer {
+        padding-left: 1458px;
+        margin-top: 2500px;
+        margin-bottom: -1159px;
+
+
+    }
+    .m-right-side {
+        margin-top: -20px;
+        margin-bottom: 113px;
+        top: 200px;
+        margin-right: -1050px;
+        margin-left: -200px;
+        
+    }
+
+    .m-left-side {
+        margin-top: -150px;
+        margin-bottom: 113px;
+        margin-right: -730px;
+        margin-left: 200px;
+        top: 200px;
+
+    }
+    .m-back-wrap {
+        position: relative;
+        z-index: -1000;
+        width: 387%;
+        overflow: hidden;
+        left: 0;
+        transform: scale(1, 2.2);
+        top: 1050px;
+        padding-left: -100px;
+        margin-top: -10px;
+
     }
     .two-column-wrapper {
         margin-bottom: 300px;
@@ -919,13 +1063,14 @@ body {
         background: rgb(1, 1, 201);
         color: goldenrod;
         height: 200px;
-        width: 252%;
+        width: 275%;
         position: relative;
         bottom: -29px;
         padding-top: 50px;
         left: 0px;
         text-align: center;
-        margin-top: 400px;
+        margin-top: 590px;
+        margin-left: -10px;
         left: 7px;
         
     }
@@ -937,6 +1082,9 @@ body {
         margin-bottom: 50px;
         
         
+    }
+    .container {
+        margin-left: -10px;
     }
     .le_brand {
         margin-bottom: 20px;
@@ -955,7 +1103,7 @@ body {
         z-index:-1000 ;
         top: -3px;
         padding-top: 470px;
-        padding-left: 945px;
+        padding-left: 1025px;
         left: 0px;
         text-align: center;
         margin-top: -395px;
@@ -963,19 +1111,19 @@ body {
        
     }
     .pr-le-footer {
-        padding-left: 958px;
+        padding-left: 1028px;
         
         
     }
-
+    
     .f-footer {
-        padding-left: 958px;
-        margin-bottom: -455px;
+        padding-left: 1028px;
+        margin-bottom: -605px;
     }
 
     .p-le-footer {
-        padding-left: 958px;
-        margin-bottom: -745px;
+        padding-left: 1028px;
+        margin-bottom: -905px;
     }
     .left-side2 {
         margin-top: -20px;
@@ -989,8 +1137,7 @@ body {
     }
   
 
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
         
     /* Navigator Styles */
 
@@ -1860,4 +2007,177 @@ body {
 
 
 }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 400px ) {
+
+    .back-wrap {
+        position: fixed;
+        z-index: -1000;
+        width: 1000%;
+        overflow: hidden;
+        left: 0;
+        transform: scale(1, 2.2);
+        top: 1000px;
+        padding-left: -100px;
+
+        
+        
+    }
+    .text {
+        font-size: 13px;
+    }
+    .two-column-wrapper {
+        margin-bottom: 300px;
+        margin-top: -200px;
+    }
+    .content-wrapper0 {
+        margin-top: -80px;
+    }
+
+    .container {
+        padding-left: 10px;
+        top: 200px;
+        width: 100px;
+        
+
+    }
+    .two-column-wrapper {
+        margin-bottom: -200px;
+        top: 100px;
+    }
+
+
+    .content-wrapper {
+        padding-top: 200px;
+    }
+    .le-footer {
+        background: rgb(1, 1, 201);
+        color: goldenrod;
+        height: 200px;
+        width: 252%;
+        position: relative;
+        bottom: -29px;
+        padding-top: 50px;
+        left: 0px;
+        text-align: center;
+        margin-top: 400px;
+        left: 7px;
+        
+    }
+    
+    .brand {
+        bottom: -100px;
+        position: unset;
+        height: 365px;
+        margin-bottom: 50px;
+        
+        
+    }
+    .le_brand {
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: -100px;
+    }
+
+    .le_brand_James {
+        margin-bottom: -60px;
+        margin-top: 2px;
+    }
+    .tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 150px;
+        position: unset;
+        width: 100%;
+        z-index:-1000 ;
+        top: -3px;
+        padding-top: 470px;
+        padding-left: 1039px;
+        padding-right: -123px;
+        left: 0px;
+        text-align: center;
+        margin-top: -395px;
+    
+       
+    }
+    .m-tp-le-footer {
+        background: #333333;
+        color: goldenrod;
+        height: 150px;
+        position: relative;
+        width: 100%;
+        z-index:-1000 ;
+        top: -3px;
+        margin-left: -100px;
+        padding-top: 470px;
+        padding-left: 1479px;
+        padding-right: -1px;
+        left: 0px;
+        text-align: right;
+        margin-top: -395px;
+    
+       
+    }
+    .pr-le-footer {
+        padding-left: 1048px;
+        
+        
+    }
+    .m-container {
+        margin-top: -1000px;
+    }
+    
+    .f-footer {
+        padding-left: 1048px;
+        margin-bottom: -455px;
+    }
+    .me-le-footer {
+        padding-left: 1318px;
+        margin-top: 2500px;
+        margin-bottom: -959px;
+
+
+    }
+    .p-le-footer {
+        padding-left: 1050px;
+        margin-bottom: -745px;
+    }
+    .left-side2 {
+        margin-top: -20px;
+        margin-bottom: 113px;
+        top: 200px;
+    }
+
+
+    .m-right-side {
+        margin-top: -20px;
+        margin-bottom: 113px;
+        top: 200px;
+        margin-right: -1050px;
+        margin-left: -200px;
+        
+    }
+
+    .m-left-side {
+        margin-top: -150px;
+        margin-bottom: 113px;
+        margin-right: -730px;
+        margin-left: 200px;
+        top: 200px;
+
+    }
+    .m-back-wrap {
+        position: relative;
+        z-index: -1000;
+        width: 317%;
+        overflow: hidden;
+        left: 0;
+        transform: scale(1, 2.2);
+        top: 1000px;
+        padding-left: -100px;
+        margin-top: -10px;
+
+    }
+  
 }
